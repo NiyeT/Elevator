@@ -35,11 +35,10 @@ from grove_rgb_lcd import *
 # Connect the Grove Ultrasonic Ranger to digital port D4
 # SIG,NC,VCC,GND
 
-ultrasonic_ranger = 4
-Relay_pin = 2
-led = #to be assigned
-led2 = #to be assigned
-dht_sensor_port = #to be assigned
+ultrasonic_ranger = 2
+Relay_pin = 6
+led = 3
+led2 = 4
 elevatorposition = 5 #arbitrary number
 personposition = 2 #arbitrary number
 destination = 4 #arb number
