@@ -90,7 +90,7 @@ if (Relay_pin==1 and blinkcounter==3):
     blinkcounter=0
 
     while (elevatorposition >= personposition):
-        settext(elevatorposition) #FIX THIS
+        setText(elevatorposition)
         time.sleep(1)
         elevatorposition=elevatorposition-1
         digitalWrite(led2,1)
@@ -101,6 +101,6 @@ if (elevatorposition == personposition):
 
 #once we get confirmation from nodered about personposition
 while (elevatorposition not personposition):
-    settext(elevatorposition) #FIX THIS
+    setText(elevatorposition) #FIX THIS
     time.sleep(1)
     elevatorposition=elevatorposition+1
